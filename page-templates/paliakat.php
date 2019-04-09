@@ -10,6 +10,7 @@ $params = array('posts_per_page' => 3, 'post_type' => 'product');
 $wc_query = new WP_Query($params);
 ?>
      <?php if ($wc_query->have_posts()) : ?>
+    <section class="product_sec">
     <div class="pwt_title">
       <h1>Productos</h1>
     </div>
@@ -37,6 +38,7 @@ $wc_query = new WP_Query($params);
      <?php else:  ?>
           <?php _e( 'No Products' ); ?>
    </div>
+   </section>
      <?php endif; ?>
 <?php
 get_footer();

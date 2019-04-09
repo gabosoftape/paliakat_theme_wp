@@ -4519,7 +4519,9 @@ section .widget-post-excerpt {
 	margin-top: 24px;
 	padding: 0 15px;
 }
-
+.product_sec {
+	background-color: #000;
+}
 .pwt_img {
 	display: flex;
 
