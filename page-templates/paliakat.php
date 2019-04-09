@@ -22,15 +22,21 @@ $wc_query = new WP_Query($params);
            <?php the_post_thumbnail(); ?>
          </div>
        <div class="pwt_dsc">
-         <h5 class="card-title">
-           <?php the_title(); ?>
-         </h5>
-         <p class="card-text">
-          <?php the_excerpt(); ?>
-         </p>
-         <a class"btn" href="<?php the_permalink(); ?>">
-           Descubrir mas.
-         </a>
+         <div class="pwt_card_title">
+           <h5>
+             <?php the_title(); ?>
+           </h5>
+         </div>
+         <div class="pwt_card_dsc">
+           <p class="card-text">
+            <?php the_excerpt(); ?>
+           </p>
+           <a class"btn" href="<?php the_permalink(); ?>">
+             Descubrir mas.
+           </a>
+         </div>
+
+
        </div>
 
      </div>
