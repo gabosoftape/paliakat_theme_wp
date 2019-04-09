@@ -4534,7 +4534,8 @@ section .widget-post-excerpt {
 	z-index: 99;
 	background-color: #999;
 	margin-left: 20%;
-	margin-right: 15%;
+	margin-right: 20%;
+	height: 5rem;
 }
 .pwt_con {
 	position: relative;
