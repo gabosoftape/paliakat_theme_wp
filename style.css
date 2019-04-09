@@ -4526,6 +4526,7 @@ section .widget-post-excerpt {
 	background-color: #FFF;
 	position: absolute;
 	top: 40px;
+	z-index: 9999;
 }
 .pwt_img {
 	display: flex;
