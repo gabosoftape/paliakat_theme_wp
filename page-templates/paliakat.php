@@ -15,11 +15,11 @@ $wc_query = new WP_Query($params);
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
      <li>
-          <h3>
+          <p>
                <a href="<?php the_permalink(); ?>">
                <?php the_title(); ?>
                </a>
-          </h3>
+          </p>
           <?php the_post_thumbnail(); ?>
           <?php the_excerpt(); ?>
      </li>
