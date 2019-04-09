@@ -4,9 +4,6 @@
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
- * @link    https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Shapely
  */
 
 ?>
@@ -77,9 +74,10 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 	</header><!-- #masthead -->
 	<div id="content" class="main-container">
 		<?php if ( ! is_page_template( 'page-templates/template-home.php' ) && ! is_404() && ! is_page_template( 'page-templates/template-widget.php' ) ) : ?>
-			<div class="header-callout">
-				<?php shapely_top_callout(); ?>
-			</div>
+
+			<!-- <div class="header-callout">
+			php shapely_top_callout();
+			</div> -->
 		<?php endif; ?>
 
 		<section class="content-area <?php echo ( get_theme_mod( 'top_callout', true ) ) ? '' : ' pt0 '; ?>">
