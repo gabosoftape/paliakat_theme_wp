@@ -4530,7 +4530,7 @@ section .widget-post-excerpt {
 
 }
 .pwt_dsc {
-	position: absolute;
+	position: relative;
 	z-index: 99;
 	background-color: #999;
 	margin-left: 20%;
