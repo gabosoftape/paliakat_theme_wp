@@ -4521,6 +4521,7 @@ section .widget-post-excerpt {
 }
 
 .pwt_img {
+	display: flex;
 
 }
 .pwt_dsc {
@@ -4529,7 +4530,7 @@ section .widget-post-excerpt {
 .pwt_con {
 	background-color: #404040;
 }
-.pwt_title, .pwt_dsc, .pwt_con, .pwt_img img{
+.pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
 	display: flex;
 	justify-content: center;
 	align-items: center;
