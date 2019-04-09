@@ -40,9 +40,9 @@ $wc_query = new WP_Query($params);
      <?php else:  ?>
           <?php _e( 'No Products' ); ?>
    </div>
-   <div class="pwt_footer">
-     <h1>footer</h1>
-   </div>
      <?php endif; ?>
+     <div class="pwt_footer">
+       <h1>footer</h1>
+     </div> 
 <?php
 get_footer();
