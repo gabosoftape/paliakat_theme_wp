@@ -4529,3 +4529,6 @@ section .widget-post-excerpt {
 .pwt_con {
 	background-color: #404040;
 }
+.pwt_title {
+	align-self: center;
+}
