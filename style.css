@@ -4522,6 +4522,9 @@ section .widget-post-excerpt {
 .product_sec {
 	background-color: #000;
 }
+.pwt_card {
+	background-color: #FFF;
+}
 .pwt_img {
 	display: flex;
 
