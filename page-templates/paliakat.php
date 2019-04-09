@@ -23,9 +23,7 @@ $wc_query = new WP_Query($params);
        <div class="pwt_dsc">
          <h5>
            <?php the_title(); ?>
-              <a class"button" href="<?php the_permalink(); ?>">
-                Descubrir mas.
-              </a>
+           <button type="button" name="button">Descubrir mas.</button>
          </h5>
          <p>
           <?php the_excerpt(); ?>
