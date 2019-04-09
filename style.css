@@ -1126,7 +1126,7 @@ th, td {
 /*!---------- 5. SECTIONS ----------*/
 
 section, footer {
-	padding: 96px 0;
+	padding: 2px 0;
 	position: relative;
 	overflow: hidden;
 }
@@ -4524,8 +4524,8 @@ section .widget-post-excerpt {
 
 }
 .pwt_dsc {
-	background: #222222;
+	background-color: #222222;
 }
 .pwt_con {
-	background: #404040;
+	background-color: #404040;
 }
