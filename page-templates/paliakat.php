@@ -18,9 +18,9 @@ $wc_query = new WP_Query($params);
                 $wc_query->the_post(); ?>
      <div class="col-lg-4 col-md-4 col-xl-4">
        <div class="pwt_card">
-       <div class="pwt_img">
-         <?php the_post_thumbnail(); ?>
-       </div>
+         <div class="pwt_img">
+           <?php the_post_thumbnail(); ?>
+         </div>
        <div class="pwt_dsc">
          <h5 class="card-title">
            <?php the_title(); ?>
@@ -40,7 +40,9 @@ $wc_query = new WP_Query($params);
      <?php else:  ?>
           <?php _e( 'No Products' ); ?>
    </div>
-
+   <div class="pwt_footer">
+     <h1>footer</h1>
+   </div>
      <?php endif; ?>
 <?php
 get_footer();
