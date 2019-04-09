@@ -42,7 +42,9 @@ $wc_query = new WP_Query($params);
    </div>
      <?php endif; ?>
      <div class="row">
-       <p>aqui va otra cosa </p>
+       <div class="col-lg-12 col-md-12 col-xl-12">
+          <p>aqui va otra cosa </p>
+       </div>
      </div>
 <?php
 get_footer();
