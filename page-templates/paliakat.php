@@ -27,7 +27,7 @@ $wc_query = new WP_Query($params);
          <p>
           <?php the_excerpt(); ?>
          </p>
-         <button type="button" name="button">Descubrir mas.</button>
+         <button type="button" class="btn btn-dark">Descubrir mas.</button>
        </div>
 
      </div>
