@@ -4528,6 +4528,7 @@ section .widget-post-excerpt {
 }
 .pwt_dsc {
 	background-color: #999;
+	width: 60%;
 }
 .pwt_con {
 	padding-top: 10px;
