@@ -35,11 +35,12 @@ $wc_query = new WP_Query($params);
 
      </div>
    </div>
+
      <?php endwhile; ?>
+     </div>
      <?php wp_reset_postdata(); ?>
      <?php else:  ?>
           <?php _e( 'No Products' ); ?>
-   </div>
      <?php endif; ?>
     <section class="after_products">
       <div class="row">
@@ -47,7 +48,7 @@ $wc_query = new WP_Query($params);
            <p>aqui va otra cosa </p>
         </div>
       </div>
-    </section> 
+    </section>
 
 <?php
 get_footer();
