@@ -4519,3 +4519,13 @@ section .widget-post-excerpt {
 	margin-top: 24px;
 	padding: 0 15px;
 }
+
+.pwt_img {
+
+}
+.pwt_dsc {
+	background: #222222;
+}
+.pwt_con {
+	background: #404040;
+}

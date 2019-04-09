@@ -10,14 +10,14 @@ $params = array('posts_per_page' => 3, 'post_type' => 'product');
 $wc_query = new WP_Query($params);
 ?>
      <?php if ($wc_query->have_posts()) : ?>
-    <div class="row">
+    <div class="row pwt_con">
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
      <div class="col-lg-4 col-md-4 col-xl-4">
-       <div class="pwt_imagen">
+       <div class="pwt_img">
          <?php the_post_thumbnail(); ?>
        </div>
-       <div class="pwt_desc">
+       <div class="pwt_dsc">
          <h5>
               <a href="<?php the_permalink(); ?>">
               <?php the_title(); ?>
