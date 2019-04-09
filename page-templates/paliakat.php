@@ -17,11 +17,11 @@ $wc_query = new WP_Query($params);
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
      <div class="col-lg-4 col-md-4 col-xl-4">
-       <div class="card" style="width: 18rem;">
+       <div class="pwt_card">
        <div class="pwt_img">
          <?php the_post_thumbnail(); ?>
        </div>
-       <div class="pwt_dsc card-body">
+       <div class="pwt_dsc">
          <h5 class="card-title">
            <?php the_title(); ?>
          </h5>
