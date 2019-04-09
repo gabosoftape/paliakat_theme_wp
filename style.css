@@ -4530,6 +4530,7 @@ section .widget-post-excerpt {
 	background-color: #222222;
 }
 .pwt_con {
+	padding-top: 10px;
 	background-color: #404040;
 }
 .pwt_title {
