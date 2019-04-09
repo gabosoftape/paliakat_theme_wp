@@ -31,7 +31,7 @@ $wc_query = new WP_Query($params);
            <p class="card-text">
             <?php the_excerpt(); ?>
            </p>
-           <a href="<?php the_permalink(); ?>">
+           <a class"btn pwt_button" href="<?php the_permalink(); ?>">
              Descubrir mas.
            </a>
          </div>
