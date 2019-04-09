@@ -4532,7 +4532,7 @@ section .widget-post-excerpt {
 .pwt_dsc {
 	position: absolute;
 	z-index: 99;
-	background-color: #999;
+	background-color: #e8e6e6;
 	margin-left: 20%;
 	margin-right: 20%;
 	height: 10rem;
@@ -4546,7 +4546,7 @@ section .widget-post-excerpt {
 	padding-left: 2rem;
 	padding-right: 2rem;
 	padding-bottom: -2.5rem;
-	background-color: #bbb;
+	background-color: #e8e6e6;
 }
 .pwt_title {
 	background-color: #fff;

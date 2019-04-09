@@ -28,7 +28,7 @@ $wc_query = new WP_Query($params);
          <p class="card-text">
           <?php the_excerpt(); ?>
          </p>
-         <a class"btn btn-primary" href="<?php the_permalink(); ?>">
+         <a class"btn" href="<?php the_permalink(); ?>">
            Descubrir mas.
          </a>
        </div>
@@ -45,7 +45,7 @@ $wc_query = new WP_Query($params);
     <section class="after_products">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xl-12">
-           
+
         </div>
       </div>
     </section>
