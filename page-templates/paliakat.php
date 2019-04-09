@@ -16,13 +16,20 @@ $wc_query = new WP_Query($params);
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
      <div class="col-lg-4 col-md-4 col-xl-4">
-          <p>
-               <a href="<?php the_permalink(); ?>">
-               <?php the_title(); ?>
-               </a>
-          </p>
-          <?php the_post_thumbnail(); ?>
+       <div class="pwt_imagen">
+         <?php the_post_thumbnail(); ?>
+       </div>
+       <div class="pwt_desc">
+         <h5>
+              <a href="<?php the_permalink(); ?>">
+              <?php the_title(); ?>
+              </a>
+         </h5>
+         <p>
           <?php the_excerpt(); ?>
+         </p>
+       </div>
+
      </div>
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
