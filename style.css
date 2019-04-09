@@ -4530,5 +4530,7 @@ section .widget-post-excerpt {
 	background-color: #404040;
 }
 .pwt_title {
-	align-self: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
