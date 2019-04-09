@@ -4527,11 +4527,11 @@ section .widget-post-excerpt {
 
 }
 .pwt_dsc {
-	background-color: #222222;
+	background-color: #999;
 }
 .pwt_con {
 	padding-top: 10px;
-	background-color: #404040;
+	background-color: #bbb;
 }
 .pwt_title {
 	background-color: #fff;
