@@ -13,34 +13,28 @@ $wc_query = new WP_Query($params);
     <div class="pwt_title">
       <h1>Productos</h1>
     </div>
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
     <div class="row pwt_con">
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
      <div class="col-lg-4 col-md-4 col-xl-4">
+       <div class="card" style="width: 18rem;">
        <div class="pwt_img">
-         <?php the_post_thumbnail(); ?>
+         <img class="card-img-top" src="<?php the_post_thumbnail(); ?>" alt="Card image cap">
        </div>
-       <div class="pwt_dsc">
-         <h5>
+       <div class="pwt_dsc card-body">
+         <h5 class="card-title">
            <?php the_title(); ?>
-              <a class"btn" href="<?php the_permalink(); ?>">
-                Descubrir mas.
-              </a>
          </h5>
-         <p>
+         <p class="card-text">
           <?php the_excerpt(); ?>
          </p>
+         <a class"btn btn-primary" href="<?php the_permalink(); ?>">
+           Descubrir mas.
+         </a>
        </div>
 
      </div>
+   </div>
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
      <?php else:  ?>
