@@ -4529,7 +4529,7 @@ section .widget-post-excerpt {
 .pwt_con {
 	background-color: #404040;
 }
-.pwt_title {
+.pwt_title, .pwt_dsc{
 	display: flex;
 	justify-content: center;
 	align-items: center;
