@@ -10,10 +10,10 @@ $params = array('posts_per_page' => 3, 'post_type' => 'product');
 $wc_query = new WP_Query($params);
 ?>
      <?php if ($wc_query->have_posts()) : ?>
-    <section class="product_sec">
     <div class="pwt_title">
       <h1>Productos</h1>
     </div>
+    <section class="product_sec">
     <div class="row pwt_con">
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
