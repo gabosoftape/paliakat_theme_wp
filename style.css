@@ -4524,9 +4524,8 @@ section .widget-post-excerpt {
 }
 .pwt_card {
 	background-color: #FFF;
-	position: absolute;
 	top: 40px;
-	z-index: 9999;
+	z-index: 99;
 }
 .pwt_img {
 	display: flex;
