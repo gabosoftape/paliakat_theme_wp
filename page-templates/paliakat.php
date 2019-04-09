@@ -38,7 +38,7 @@ $wc_query = new WP_Query($params);
      <?php else:  ?>
           <?php _e( 'No Products' ); ?>
    </div>
-   </section>
+
      <?php endif; ?>
 <?php
 get_footer();
