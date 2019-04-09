@@ -4535,7 +4535,10 @@ section .widget-post-excerpt {
 	margin-right: 15%;
 }
 .pwt_con {
-	padding-top: 10px;
+	padding-top: 1.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2.5rem;
 	background-color: #bbb;
 }
 .pwt_title {
