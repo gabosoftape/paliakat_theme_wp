@@ -45,7 +45,7 @@ $wc_query = new WP_Query($params);
     <section class="after_products">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xl-12">
-           <p>aqui va otra cosa </p>
+           
         </div>
       </div>
     </section>
