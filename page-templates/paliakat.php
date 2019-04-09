@@ -19,7 +19,7 @@ $wc_query = new WP_Query($params);
      <div class="col-lg-4 col-md-4 col-xl-4">
        <div class="card" style="width: 18rem;">
        <div class="pwt_img">
-         <img class="card-img-top" src="<?php the_post_thumbnail(); ?>" alt="Card image cap">
+         <?php the_post_thumbnail(); ?>
        </div>
        <div class="pwt_dsc card-body">
          <h5 class="card-title">
