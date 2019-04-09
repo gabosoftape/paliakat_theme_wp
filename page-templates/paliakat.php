@@ -12,9 +12,10 @@ $wc_query = new WP_Query($params);
 ?>
 <ul>
      <?php if ($wc_query->have_posts()) : ?>
+    <div class="row">
      <?php while ($wc_query->have_posts()) :
                 $wc_query->the_post(); ?>
-     <li>
+     <div class="col-lg-4 col-md-4 col-xl-4">
           <p>
                <a href="<?php the_permalink(); ?>">
                <?php the_title(); ?>
@@ -22,13 +23,14 @@ $wc_query = new WP_Query($params);
           </p>
           <?php the_post_thumbnail(); ?>
           <?php the_excerpt(); ?>
-     </li>
+     </div>
      <?php endwhile; ?>
      <?php wp_reset_postdata(); ?>
      <?php else:  ?>
      <li>
           <?php _e( 'No Products' ); ?>
      </li>
+   </div>
      <?php endif; ?>
 </ul>
 <?php
