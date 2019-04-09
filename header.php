@@ -81,4 +81,4 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 		<?php endif; ?>
 
 		<section class="content-area <?php echo ( get_theme_mod( 'top_callout', true ) ) ? '' : ' pt0 '; ?>">
-			<div id="main" class="container" role="main">
+			<div id="main" class="container1" role="main">
