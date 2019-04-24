@@ -4554,6 +4554,7 @@ section .widget-post-excerpt {
 }
 
 .pwt_button{
+	display: inline-flex;
 	color: #FFF;
 	background-color: #000;
 }
