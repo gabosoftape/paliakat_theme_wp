@@ -4537,7 +4537,7 @@ section .widget-post-excerpt {
 
 }
 .pwt_dsc {
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	background-color: #e8e6e6;
 	margin-left: 20%;
