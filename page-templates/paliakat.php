@@ -48,11 +48,34 @@ $wc_query = new WP_Query($params);
     <?php endif; ?>
 -->
     <section class="after_products">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-xl-12">
-
+      <div class="art-layout-wrapper">
+    <div class="art-content-layout">
+        <div class="art-content-layout-row">
+            <div class="art-layout-cell art-content">
+            	<article class="art-post art-article">
+                    <h2 class="art-postheader">Página Nueva</h2>
+					<div class="art-postcontent art-postcontent-0 clearfix">
+						<div class="art-content-layout-wrapper layout-item-0">
+							<div class="art-content-layout layout-item-1">
+							    <div class="art-content-layout-row">
+								    <div class="art-layout-cell layout-item-2" style="width: 33%" >
+								        <p>texto y boton</p>
+								    </div>
+								    <div class="art-layout-cell layout-item-2" style="width: 34%" >
+								        <p>texto y boton 2&nbsp;</p>
+								    </div>
+								    <div class="art-layout-cell layout-item-2" style="width: 33%" >
+								        <p>tecto y boton 3&nbsp;</p>
+								    </div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
         </div>
-      </div>
+    </div>
+</div>
     </section>
 
 <?php
