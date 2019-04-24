@@ -4520,7 +4520,8 @@ section .widget-post-excerpt {
 	padding: 0 15px;
 }
 .fila1 {
-	background-color: #001;
+	background-color: blue;
+	height: 9rem;
 }
 .fila2 {
 	background-color: red;
@@ -4538,8 +4539,13 @@ section .widget-post-excerpt {
 	display: flex;
 
 }
+.pwt_dsc {
+	background-color: gray;
+}
+
 .pwt_dsc h5{
 	font-size: 20px;
+
 }
 .pwt_title {
 	background-color: #fff;
