@@ -4529,4 +4529,26 @@ section .widget-post-excerpt {
 	background-color: green;
 	height: 9rem;
 }
+.pwt_card {
+	background-color: #FFF;
+}
+.pwt_img {
+	display: flex;
 
+}
+.pwt_dsc h5{
+	font-size: 20px;
+}
+.pwt_title {
+	background-color: #fff;
+}
+.pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
+	display: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.pwt_button{
+	color: #FFF;
+	background-color: #000;
+}
