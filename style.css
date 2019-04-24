@@ -4520,15 +4520,10 @@ section .widget-post-excerpt {
 	padding: 0 15px;
 }
 .fila1 {
-	position: relative;
-	justify-content: center;
-	align-items: center;
 	background-color: blue;
-	height: 9rem;
 }
 .fila2 {
 	background-color: red;
-	
 }
 .fila3 {
 	background-color: green;
@@ -4541,16 +4536,16 @@ section .widget-post-excerpt {
 	display: flex;
 
 }
-.pwt_dsc {
-	background-color: gray;
-}
-
 .pwt_dsc h5{
 	font-size: 20px;
-
 }
 .pwt_title {
 	background-color: #fff;
+}
+.pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
+	display: relative;
+	justify-content: center;
+	align-items: center;
 }
 
 .pwt_button{
