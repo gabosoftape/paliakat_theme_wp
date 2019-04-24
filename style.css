@@ -4538,8 +4538,8 @@ section .widget-post-excerpt {
 }
 .pwt_dsc{
 	background-color: #aaa;
-	padding-right: 20%;
-	padding-left: 20%;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 .pwt_dsc h5{
 	font-size: 20px;
