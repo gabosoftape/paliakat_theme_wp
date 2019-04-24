@@ -80,11 +80,12 @@ $wc_query = new WP_Query($params);
 	     		</div>
    			</div>
      		<?php endwhile; ?>
+     		<?php wp_reset_postdata(); ?>
+		    <?php else:  ?>
+		          <?php _e( 'No Products' ); ?>
+		    <?php endif; ?>
      	</div>
-     	<?php wp_reset_postdata(); ?>
-	    <?php else:  ?>
-	          <?php _e( 'No Products' ); ?>
-	    <?php endif; ?>
+     	<!-- fila 3 --------------------------------------------------------- -->
      	<div class="row fila3">
      		<div class="col-xl-12">
      			<h2>este es ultimo titulo h2</h2>
