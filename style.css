@@ -4543,7 +4543,7 @@ section .widget-post-excerpt {
 	background-color: #fff;
 }
 .pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
-	display: relative;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
