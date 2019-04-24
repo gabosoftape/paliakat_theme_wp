@@ -4529,44 +4529,4 @@ section .widget-post-excerpt {
 	background-color: green;
 	height: 9rem;
 }
-.pwt_card {
-	background-color: #FFF;
-}
-.pwt_img {
-	display: flex;
 
-}
-.pwt_dsc {
-	position: relative;
-	z-index: 1;
-	background-color: #e8e6e6;
-	margin-left: 20%;
-	margin-right: 20%;
-	height: 10rem;
-}
-.pwt_dsc h5{
-	font-size: 20px;
-}
-.pwt_con {
-	position: relative;
-	padding-top: 1.5rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	padding-bottom: -2.5rem;
-	background-color: #e8e6e6;
-}
-.pwt_title {
-	background-color: #fff;
-}
-.pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
-	display: relative;
-	justify-content: center;
-	align-items: center;
-}
-.after_products{
-	height: 30rem;
-}
-.pwt_button{
-	color: #FFF;
-	background-color: #000;
-}
