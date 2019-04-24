@@ -11,11 +11,6 @@
 
 </div><!-- #main -->
 </section><!-- section -->
-
-<div class="footer-callout">
-	<?php shapely_footer_callout(); ?>
-</div>
-
 <footer id="colophon" class="site-footer footer bg-dark" role="contentinfo">
 	<div class="container footer-inner">
 		<div class="row">
