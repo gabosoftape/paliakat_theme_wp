@@ -4519,8 +4519,15 @@ section .widget-post-excerpt {
 	margin-top: 24px;
 	padding: 0 15px;
 }
-.product_sec {
+.fila1 {
 	background-color: #001;
+}
+.fila2 {
+	background-color: red;
+}
+.fila3 {
+	background-color: green;
+	height: 3rem;
 }
 .pwt_card {
 	background-color: #FFF;
@@ -4552,7 +4559,7 @@ section .widget-post-excerpt {
 	background-color: #fff;
 }
 .pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
-	display: absolute;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }

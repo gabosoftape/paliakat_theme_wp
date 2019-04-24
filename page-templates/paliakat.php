@@ -92,4 +92,4 @@ $wc_query = new WP_Query($params);
      		</div>
      	</div>
     </section>
-
+<?php wp_footer(); ?>
