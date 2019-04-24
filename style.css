@@ -4536,6 +4536,9 @@ section .widget-post-excerpt {
 	display: flex;
 
 }
+.pwt_dsc{
+	background-color: #333;
+}
 .pwt_dsc h5{
 	font-size: 20px;
 }
