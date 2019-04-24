@@ -4544,6 +4544,9 @@ section .widget-post-excerpt {
 .pwt_dsc h5{
 	font-size: 10px;
 }
+.pwt_card_title{
+	display: flex;
+}
 .pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
 	display: flex;
 	justify-content: center;
