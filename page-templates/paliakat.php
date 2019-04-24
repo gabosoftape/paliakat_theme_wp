@@ -12,6 +12,7 @@ $wc_query = new WP_Query($params);
      <?php if ($wc_query->have_posts()) : ?>
     <div class="pwt_title">
       <h1>Productos</h1>
+      <p>este es un request de gabriel </p>
     </div>
     <div class="row pwt_con">
      <?php while ($wc_query->have_posts()) :
