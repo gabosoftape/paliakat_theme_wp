@@ -4537,7 +4537,7 @@ section .widget-post-excerpt {
 
 }
 .pwt_dsc {
-	position: absolute;
+	position: relative;
 	z-index: 1;
 	background-color: #e8e6e6;
 	margin-left: 20%;
@@ -4559,7 +4559,7 @@ section .widget-post-excerpt {
 	background-color: #fff;
 }
 .pwt_title, .pwt_dsc, .pwt_con, .pwt_img{
-	display: flex;
+	display: relative;
 	justify-content: center;
 	align-items: center;
 }
