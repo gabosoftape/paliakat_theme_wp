@@ -48,17 +48,17 @@ $wc_query = new WP_Query($params);
     <?php endif; ?>
 -->
     <section class="after_products">
-     	<div class="row">
-     		<div class="col-xl-12">
+     	<div class="row fila1">
+     		<div class="col-xl-12 pwt_title">
      			<h2>este es un titulo h2</h2>
      		</div>
      	</div>
-     	<div class="row">
+     	<div class="row fila2">
      		<div class="col-xl-12">
-     			<h2>este es otro titulo h2</h2>
+     			
      		</div>
      	</div>
-     	<div class="row">
+     	<div class="row fila3">
      		<div class="col-xl-12">
      			<h2>este es ultimo titulo h2</h2>
      		</div>
