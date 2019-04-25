@@ -46,8 +46,8 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						<div class="col-lg-8">
 						 	<p>este es un texto prueba</p>
 						</div>
-						<div>
-							<p></p>
+						<div class="col-lg-4">
+							<p>aqui va lo otro</p>
 						</div>
 					</div>
 					<div class="flex-row">
