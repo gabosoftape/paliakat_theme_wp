@@ -43,10 +43,10 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 			<nav <?php echo $style; ?> id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
 					<div class="flex-row">
-						<div class="col-lg-8">
-						 	<p>este es un texto prueba</p>
+						<div class="hidden-sm hidden-xs">
+						 	
 						</div>
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 							<p>aqui va lo otro</p>
 						</div>
 					</div>
