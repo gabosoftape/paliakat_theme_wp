@@ -1136,7 +1136,8 @@ section, footer {
 }
 
 footer {
-	padding: 72px 0;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 .fullscreen {
