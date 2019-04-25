@@ -43,6 +43,14 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 			<nav <?php echo $style; ?> id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
 					<div class="flex-row">
+						<div class="col-lg-8">
+						 	<p>este es un texto prueba</p>
+						</div>
+						<div>
+							<p></p>
+						</div>
+					</div>
+					<div class="flex-row">
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
@@ -57,7 +65,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
 								<div class="search">
 									<i class="fa fa-search"></i>
-									<span class="title"><?php esc_html_e( 'Site Search', 'shapely' ); ?></span>
+									<span class="title"><?php esc_html_e( 'Site Search', 'shapely' ); ?>Buscar</span>
 								</div>
 								<div class="function">
 									<?php
