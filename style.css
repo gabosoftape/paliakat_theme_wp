@@ -4560,11 +4560,6 @@ section .widget-post-excerpt {
 }
 .button_paliakat {
 	font-size: 1.3rem;
-	margin-left: 3rem;
+	margin-left: 5rem;
 }
-.pais_button{
-	display: flex;
-	justify-content: right;
-	align-items: right;
 
-}
