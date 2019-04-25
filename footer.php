@@ -12,23 +12,26 @@
 </div><!-- #main -->
 </section><!-- section -->
 <footer id="colophon" class="site-footer footer bg-dark" role="contentinfo">
-	<div class="container footer-inner">
-		<div class="row">
-			<?php get_sidebar( 'footer' ); ?>
+	<div class="flex-row">
+		<div id="footer_1">
+			<h3></h3>
+			<hr/>
 		</div>
-
-		<div class="row">
-			<div class="site-info col-sm-6">
-				<div class="copyright-text">
-					<?php echo wp_kses_post( get_theme_mod( 'shapely_footer_copyright' ) ); ?>
-				</div>
-				<div class="footer-credits">
-					<?php shapely_footer_info(); ?>
-				</div>
-			</div><!-- .site-info -->
-			<div class="col-sm-6 text-right">
-				<?php shapely_social_icons(); ?>
-			</div>
+		<div id="footer_2">
+			<h3></h3>
+			<hr/>
+		</div>
+		<div id="footer_3">
+			<h3></h3>
+			<hr/>
+		</div>
+		<div id="footer_4">
+			<h3></h3>
+			<hr/>
+		</div>
+		<div id="footer_5">
+			<h3></h3>
+			<hr/>
 		</div>
 	</div>
 
