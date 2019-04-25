@@ -4557,10 +4557,14 @@ section .widget-post-excerpt {
 	display: inline-flex;!important
 	color: #FFF;
 	background-color: #000;
-	margin-left: 3rem;
+	margin-left: 3rem
 }
-.button_paliakat {
+.button_login {
 	font-size: 1.3rem;
+	margin-left: 5rem;
+}
+.button_pais {
+	font-size: 1rem;
 	margin-left: 5rem;
 }
 

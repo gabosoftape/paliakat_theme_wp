@@ -47,10 +47,10 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						 	
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="pais_button">
+							<div class="before_nav">
 								<i class="fa fa-arrow-down"></i>
-								<a href="https://paliakat.com/contacto">SELECCIONA TU PAÍS</a>
-								<a class="button_paliakat" href="https://paliakat.com/admin">INICIAR SESION</a>
+								<a class="button_pais" href="https://paliakat.com/contacto">SELECCIONA TU PAÍS</a>
+								<a class="button_login" href="https://paliakat.com/admin">INICIAR SESION</a>
 							</div>
 						</div>
 					</div>
