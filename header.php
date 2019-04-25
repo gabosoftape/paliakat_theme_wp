@@ -53,7 +53,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 							</div>
 							<div class=login_btn>
 								<i class="fa fa-arrow-down"></i>
-								<a>SELECCIONA TU PAÍS</a>
+								<a>INICIAR SESION</a>
 							</div>
 						</div>
 					</div>
