@@ -47,7 +47,13 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						 	
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<p>aqui va lo otro</p>
+							<div class="pais_button">
+								<i class="fa fa-arrow-down"></i>
+								<span>seleccionar pais</span>
+							</div>
+							<div class=login_btn>
+								
+							</div>
 						</div>
 					</div>
 					<div class="flex-row">
