@@ -22,15 +22,15 @@
 			<hr/>
 		</div>
 		<div id="footer_3" class="col-lg-2 col-md-2">
-			<h3>CONDICIONES</h3>
+			<h4>CONDICIONES</h4>
 			<hr/>
 		</div>
 		<div id="footer_4" class="col-lg-2 col-md-2">
-			<h3>SUPPORT</h3>
+			<h4>SUPPORT</h4>
 			<hr/>
 		</div>
 		<div id="footer_5" class="col-lg-3 col-md-3">
-			<h3>FOLLOW</h3>
+			<h4>FOLLOW</h4>
 			<hr/>
 		</div>
 	</div>
