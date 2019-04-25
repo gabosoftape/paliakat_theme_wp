@@ -43,18 +43,6 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 			<nav <?php echo $style; ?> id="site-navigation" class="main-navigation" role="navigation">
 				<div class="container nav-bar">
 					<div class="flex-row">
-						<div class="hidden-sm hidden-xs">
-						 	
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="pais_button">
-								<i class="fa fa-arrow-down"></i>
-								<a href="https://paliakat.com/contacto">SELECCIONA TU PAÍS</a>
-								<a>INICIAR SESION</a>
-							</div>
-						</div>
-					</div>
-					<div class="flex-row">
 						<div class="module left site-title-container">
 							<?php shapely_get_header_logo(); ?>
 						</div>
@@ -63,7 +51,14 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 						</div>
 						<div class="module-group right">
 							<div class="module left">
-								<?php shapely_header_menu(); ?>
+								<div class="pais_button">
+									<i class="fa fa-arrow-down"></i>
+									<a href="https://paliakat.com/contacto">SELECCIONA TU PAÍS</a>
+									<a>INICIAR SESION</a>
+								</div>
+								<div class="flex-row"> 
+									<?php shapely_header_menu(); ?>
+								</div>
 							</div>
 							<!--end of menu module-->
 							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
