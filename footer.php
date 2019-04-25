@@ -25,12 +25,12 @@
 			<h4>CONDICIONES</h4>
 			<hr/>
 		</div>
-		<div id="footer_4" class="col-lg-2 col-md-2">
-			<h4>SUPPORT</h4>
+		<div id="footer_4" class="col-lg-3 col-md-3">
+			<h4>SOPORTE DE VENTAS</h4>
 			<hr/>
 		</div>
-		<div id="footer_5" class="col-lg-3 col-md-3">
-			<h4>FOLLOW</h4>
+		<div id="footer_5" class="col-lg-2 col-md-2">
+			<h4>SIGUENOS</h4>
 			<hr/>
 		</div>
 	</div>
