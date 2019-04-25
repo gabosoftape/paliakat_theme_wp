@@ -4562,3 +4562,9 @@ section .widget-post-excerpt {
 	font-size: 1.3rem;
 	margin-left: 3rem;
 }
+.pais_button{
+	display: flex;
+	justify-content: right;
+	align-items: right;
+
+}
