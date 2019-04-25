@@ -51,7 +51,7 @@ $wc_query = new WP_Query($params);
     	<?php if ($wc_query->have_posts()) : ?>
      	<div class="row fila1">
      		<div class="col-xl-12 pwt_title">
-     			<h2>este es un titulo h2</h2>
+     			<h2>Productos</h2>
      		</div>
      	</div>
      	<div class="row fila2">
