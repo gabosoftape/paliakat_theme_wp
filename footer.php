@@ -11,7 +11,7 @@
 
 </div><!-- #main -->
 </section><!-- section -->
-<footer id="colophon" class="site-footer footer bg-dark" role="contentinfo">
+<footer id="colophon" class="site-footer footer" role="contentinfo">
 	<div class="flex-row">
 		<div id="footer_1" class="col-lg-2 col-md-2">
 			<h4>INFORMACION</h4>
