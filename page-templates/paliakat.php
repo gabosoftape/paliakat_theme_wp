@@ -314,14 +314,10 @@ for (var attr in meta) {
 
 <script src="https://bundles.boldapps.net/js/bundles.js" type="text/javascript"></script>
 <link href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/bold-bundles.css?192" rel="stylesheet" type="text/css" media="all" />
-
-	
-
-  
-   
-  	<link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
-  	<link href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/style.scss.css?192" rel="stylesheet" type="text/css" media="all" />
-    <link rel="icon" type="image/png" href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/favicon.ico?192" />      <script>
+<link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
+<link href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/style.scss.css?192" rel="stylesheet" type="text/css" media="all" />
+<link rel="icon" type="image/png" href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/favicon.ico?192" /> 
+     <script>
         !function(t,n){function o(n){var o=t.getElementsByTagName("script")[0],i=t.createElement("script");i.src=n,i.crossOrigin="",o.parentNode.insertBefore(i,o)}if(!n.isLoyaltyLion){window.loyaltylion=n,void 0===window.lion&&(window.lion=n),n.version=2,n.isLoyaltyLion=!0;var i=new Date,e=i.getFullYear().toString()+i.getMonth().toString()+i.getDate().toString();o("https://sdk.loyaltylion.net/static/2/loader.js?t="+e);var r=!1;n.init=function(t){if(r)throw new Error("Cannot call lion.init more than once");r=!0;var a=n._token=t.token;if(!a)throw new Error("Token must be supplied to lion.init");for(var l=[],s="_push configure bootstrap shutdown on removeListener".split(" "),c=0;c<s.length;c+=1)!function(t,n){t[n]=function(){l.push([n,Array.prototype.slice.call(arguments,0)])}}(n,s[c]);o("https://sdk.loyaltylion.net/sdk/start/"+a+".js?t="+e+i.getHours().toString()),n._initData=t,n._buffer=l}}}(document,window.loyaltylion||[]);
         
   loyaltylion.init({ token: '280a778189c1b187fec049bea97bf706' });
@@ -1189,131 +1185,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#" class="loyalty-btn hidden-xs hidden-sm" data-lion-account-link>Loyalty  program</a>
   </div>
   </div>
-    <header class="header-p">
-        <div class="container">
-            <a href="../../../../" class="logo"> <?php shapely_get_header_logo(); ?> </a>
-            <div class="header-in">
-                <div class="menu-cont">
-                  <div class="menu-cont-in">
-                    <nav class="hidden-xs hidden-sm">
-                        <div class="item accordion-cont"> <a class="accordion-button" href="/collections/all-man">Hombre</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/all-man" >Todo Hombre</a><a href="/collections/playeras-manga-corta" >Manga Corta</a><a href="/collections/playera-manga-larga" >Manga Larga</a><a href="/collections/sudaderas-y-chaquetas" >Sudaderas & Chamarras</a><a href="/collections/pantalones" >Jeans & Joggers</a><a href="/collections/swimwear" >Trajes de Baño</a></div>
-                        </div>
-                        <div class="item accordion-cont"> <a class="accordion-button" href="/collections/mujer">Mujer</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/mujer" >Todo Mujer</a><a href="/collections/denim-mujer" >Denim</a></div>
-                        </div>
-                        <div class="item accordion-cont"> <a class="accordion-button" href="/collections/youth-graphic-tees">Niños</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/youth-graphic-tees" >Camisetas Gráficas</a><a href="/collections/pullover-youth" >Sudaderas</a></div>
-                        </div>
-                        <div class="item accordion-cont"> <a class="accordion-button" href="/collections/accesorios">Accesorios</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/snapbacks" >Gorras</a><a href="/collections/gift-card/Tarjeta-de-Regalo" >Tarjetas de Regalo</a></div>
-                        </div>
-                        <div class="item"><a href="/collections/descuentos" class="">DESCUENTOS</a></div>
-                        <div class="item"><a href="/pages/tiendas" class="">Tiendas</a></div>
-                        <div class="item"><a href="/pages/about-us" class="">Nosotros</a></div>
-                        <!-- <a href="archive.php">Men</a> <a href="archive.php">Women</a> <a href="archive.php">Youth</a> <a href="archive.php">Accesories</a> <a href="">Sale</a> <a href="locations.php">Locations</a> --></nav>
-                  <div class="block visible-xs visible-sm">
-                    <form action="/search" method="get" role="search">
-                      <input type="hidden" name="type" value="product" />
-                          <input type="submit" value="" /><input name="q" type="search" id="search-field" value="" placeholder="Buscar" />
-                    </form>
-                  </div>
-                  <div class="block visible-xs visible-sm">
-                    <nav>
-                      
-                      <div class="item">
-                        	<a class="mobile-accordion-button">Hombre&nbsp;&nbsp;&nbsp;+</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/all-man" >Todo Hombre</a><a href="/collections/playeras-manga-corta" >Manga Corta</a><a href="/collections/playera-manga-larga" >Manga Larga</a><a href="/collections/sudaderas-y-chaquetas" >Sudaderas & Chamarras</a><a href="/collections/pantalones" >Jeans & Joggers</a><a href="/collections/swimwear" >Trajes de Baño</a></div>
-                      </div>
-                      
-                      
-                      <div class="item">
-                        	<a class="mobile-accordion-button">Mujer&nbsp;&nbsp;&nbsp;+</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/mujer" >Todo Mujer</a><a href="/collections/denim-mujer" >Denim</a></div>
-                      </div>
-                      
-                      
-                      <div class="item">
-                        	<a class="mobile-accordion-button">Niños&nbsp;&nbsp;&nbsp;+</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/youth-graphic-tees" >Camisetas Gráficas</a><a href="/collections/pullover-youth" >Sudaderas</a></div>
-                      </div>
-                      
-                      
-                      <div class="item">
-                        	<a class="mobile-accordion-button">Accesorios&nbsp;&nbsp;&nbsp;+</a>
-                            <div class="accordion-content" style="display:none"><a href="/collections/snapbacks" >Gorras</a><a href="/collections/gift-card/Tarjeta-de-Regalo" >Tarjetas de Regalo</a></div>
-                      </div>
-                      
-                      
-                      
-                      
-                      
-                      <!--<div class="item"><a href="/collections/descuentos">Descuentos</a></div>-->
-                    </nav>
-                  </div>  
-                  <div class="block visible-xs visible-sm">
-                    <nav>
-                      <div class="item"><a href="/account">Mi cuenta</a></div>
-                      <div class="item"><a href="/a/wishlist/">Mis favoritos</a></div>
-                    </nav>
-                  </div>
-                  <div class="block visible-xs visible-sm">
-                    <nav>
-                      <div class="item"><a href="#" data-lion-account-link>Loyalty Program</a></div>
-                      <div class="item"><a href="/pages/tiendas">Tiendas</a></div>
-                      <div class="item"><a href="/pages/about-us/">Nosotros</a></div>
-                      <div class="item"><a href="/pages/terms-and-policies">Terms & conditions</a></div>
-                      <div class="item"><a href="/pages/faqs">Faqs</a></div>
-                      <div class="item"><a href="/pages/contact-us/">Contacto</a></div>
-                      <div class="item"><a href="/pages/sitemap">Sitemap</a></div>
-                    </nav>
-                  </div>
-                  <div class="block visible-xs visible-sm">
-                    <h6><img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/i-secure.svg?192" alt="secure"> <p>Pago seguro</p></h6>
-                    <img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/metodos-pago.svg?192" alt="payments">
-                  </div>
-                  </div>
-                </div>
-                <div class="header-actions"><a href="/account/login" id="customer_login_link">Entrar</a>
-<!--                     <a href="/cart" class="btn-cart site-header__cart-toggle js-drawer-open-right" aria-controls="CartDrawer" aria-expanded="false"> -->
-                  	<a href="/cart" class="btn-cart">
-                        <div class="count-cont"> <img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/shoppingbag.svg?192" alt="bag" class="bag">
-                            <p id="CartCount">0</p>
-                        </div>
-                        <p><span class=money>$ 0.00 MXN</span></p>
-                    </a>
-                    <div class="search-cont">
-                      	<div class="search-btn-mobile hidden-md hidden-lg">
-                      		<img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/i-search.svg?192" alt="search">
-                      	</div>
-                        <div class="search-btn hidden-xs hidden-sm">
-                          	<img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/i-search.svg?192" alt="search">
-                            <p>Buscar</p>
-                        </div>
-                        <form action="/search" method="get" class="search-form right other-form" role="search">
-                            <input type="submit" id="search-submit" value="" />
-                            <input type="hidden" name="type" value="product" />
-                            <input name="q" type="search" id="search-field" value="" />
-                      </form>
-                    </div>
-                    <div class="menu-btn">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </div>
-            </div>
-           
-            
-           <div class="switch-btn">
-              
-              	
-                 <a href="http://acapellastore.com/location">Selecciona tu país</a>
-            </div>
-          
-         
-      </div>
-    </header>
+   
   
     <div id="main" role="main"><style>header.header-p{padding-bottom: 20px;}footer{padding-bottom: 37px;}</style>
 <section class="home" id="home">
@@ -1406,23 +1278,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             
             <a href="/products/xpocketfrostedalmond20" class="item">
 
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-          
-
               <div class="smartwishlist" data-product="2011104084065" data-variant="19157065072737"></div>
               <div class="img" style="background: url(//cdn.shopify.com/s/files/1/1182/6070/products/89b2a2e8a4f145493e64d50ddb61927130f047e5_1024x1024.jpg?v=1552845809)center no-repeat; background-size: cover;"></div>
               
@@ -1436,26 +1291,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div></div>
             </a>
             <a href="/products/paranoid" class="item">
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-          
-
               <div class="smartwishlist" data-product="2006528032865" data-variant="19130533052513"></div>
               <div class="img" style="background: url(//cdn.shopify.com/s/files/1/1182/6070/products/127db5daefc630cee131c3ae054a69ccb773852b_1024x1024.jpg?v=1552668516)center no-repeat; background-size: cover;"></div>
               
@@ -1468,21 +1303,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </a>
             <a href="/products/newhorizons" class="item">
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-          
 
               <div class="smartwishlist" data-product="2004130725985" data-variant="19098157482081"></div>
               <div class="img" style="background: url(//cdn.shopify.com/s/files/1/1182/6070/products/317c1ffe2ae2c4dc80736b81cb0d8ccea2aae586_1024x1024.jpg?v=1552587630)center no-repeat; background-size: cover;"></div>
@@ -1497,22 +1317,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div></div>
             </a>
             <a href="/products/onemore" class="item">
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-          
-
               <div class="smartwishlist" data-product="2004145864801" data-variant="19098495451233"></div>
               <div class="img" style="background: url(//cdn.shopify.com/s/files/1/1182/6070/products/e08315f09782e0a1a0d21d930fbda1e5e1348bb1_1024x1024.jpg?v=1552351888)center no-repeat; background-size: cover;"></div>
               
@@ -1526,19 +1330,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div></div>
             </a>
             <a href="/products/burn" class="item">
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-          
 
               <div class="smartwishlist" data-product="1819615461445" data-variant="17002564681797"></div>
               <div class="img" style="background: url(//cdn.shopify.com/s/files/1/1182/6070/products/unspecified_3887d8d9-457e-47a6-8036-5a56e02caa96_1024x1024.jpg?v=1541022724)center no-repeat; background-size: cover;"></div>
