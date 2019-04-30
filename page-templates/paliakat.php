@@ -21,41 +21,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/geolizr-lib.js?192" type="text/javascript"></script>
 <link href="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/geolizr-lib.css?192" rel="stylesheet" type="text/css" media="all" />
 <script>Geolizr.config({"currency_widget_enabled":"false"});</script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript"></script>
- 
-  <script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js" type="text/javascript"></script>
+<script>
 //     $(document).on('click', '#geolizr-currency-switcher', function(e) {
 //             e.preventDefault();
 //             $('#geolizr-currency-list').toggle();
 //         });
-  </script>
-  
-    <meta charset="utf-8" /> 
-    <title>Acapella Store - Ropa para hombre y mujer ; Envíos a todo México&ndash;ACAPELLA</title>
-  
-    <meta name="description" content="Acapella es una marca de ropa para hombre y mujer 100% mexicana. Con la reciente incorporación de Juanpa Zurita como socio de la marca, Acapella está cada día más cerca de ser la marca Latinoamericana más reconocida mundialmente." />
-  
-  
-  
-  
-    <link rel="alternate" hreflang="en" href="https://global.acapellastore.com/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  
-    
-  <meta property="og:title" content="Acapella Store - Ropa para hombre y mujer ; Envíos a todo México" />
-  <meta property="og:type" content="website" />
-
-
-
-<meta property="og:description" content="Acapella es una marca de ropa para hombre y mujer 100% mexicana. Con la reciente incorporación de Juanpa Zurita como socio de la marca, Acapella está cada día más cerca de ser la marca Latinoamericana más reconocida mundialmente." />
-
-<meta property="og:url" content="https://latam.acapellastore.com/" />
-<meta property="og:site_name" content="ACAPELLA" />
-  
- 
-
-  <script>//contentForHeaderStart
-window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="r190oCv1e7_zrHmu1sVCjg4bx8ZsqePWLZh543XYBmw">
+</script>
+<meta charset="utf-8" /> 
+<title>PALIAKAT</title>
+<meta name="description" content="Paliakat es una marca de ropa para hombre y mujer" />
+<link rel="alternate" hreflang="en" href="https://global.acapellastore.com/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta property="og:title" content="PALIAKAT - paliakats" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Paliakat es una marca de ropa para hombre y mujer" />
+<meta property="og:url" content="https://latam.paliakat.com/" />
+<meta property="og:site_name" content="PALIAKAT" />
+  	<script>//contentForHeaderStart
+		window.performance.mark('shopify.content_for_header.start');
+	</script><meta name="google-site-verification" content="r190oCv1e7_zrHmu1sVCjg4bx8ZsqePWLZh543XYBmw">
 <meta name="google-site-verification" content="agz8Qee5Rq3swqs8T2SY6-YJZmBfVrhl68VkotKTsGs">
 <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/11826070/digital_wallets/dialog">
 <meta name="shopify-checkout-api-token" content="478cf7bcd7dfeead3c7063d07a8d86b1">
