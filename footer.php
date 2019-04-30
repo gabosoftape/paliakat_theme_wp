@@ -131,7 +131,7 @@
             <div class="clearfix"></div>
             <div class="footer-down clearfix">
                 <div class="box">
-                    <div class="copy">Copyright ©2019 Acapella</div>
+                    <div class="copy">Copyright ©2019 PALIAKAT</div>
                 </div><div class="boxb text-right"> <img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/acapella-m.svg?239" alt="Acapella"> </div>
             </div>
         </div>
