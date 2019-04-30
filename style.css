@@ -4519,7 +4519,8 @@ section .widget-post-excerpt {
 	margin-top: 24px;
 	padding: 0 15px;
 }
-.fila1 {
+
+/*.fila1 {
 	background-color: blue;
 }
 .fila2 {
@@ -4528,7 +4529,7 @@ section .widget-post-excerpt {
 .fila3 {
 	background-color: green;
 	height: 9rem;
-}
+} */
 .pwt_card {
 	background-color: #FFF;
 }
