@@ -71,7 +71,7 @@ if ( 1 == $shapely_transparent_header && $shapely_transparent_header_opacity ) {
 							<!--end of menu module-->
 							<div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
 								<div class="search-btn hidden-xs hidden-sm">
-									<h4>| Buscar </h4> 
+									| Buscar  
 		                          	<img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/i-search.svg?192" alt="search">
 		                        </div>
 								<div class="function">
