@@ -1191,7 +1191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
     <header class="header-p">
         <div class="container">
-            <a href="../../../../" class="logo"> <img src="//cdn.shopify.com/s/files/1/1182/6070/t/8/assets/acapella.svg?192" alt="acapella"> </a><div class="header-in">
+            <a href="../../../../" class="logo"> <img src="/inc/img/logo.jpg" alt="paliakat"> </a><div class="header-in">
                 <div class="menu-cont">
                   <div class="menu-cont-in">
                     <nav class="hidden-xs hidden-sm">
