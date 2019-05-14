@@ -26,12 +26,12 @@ $wc_query = new WP_Query($params);
 	           			<?php the_post_thumbnail(); ?>
 	         		</div>
 			       <div class="pwt_dsc">
-				        <div class="row pwt_card_title">
+				        <div class="pwt_card_title">
 				           <h5>
 				             <?php the_title(); ?>
 				           </h5>
 				        </div>
-				        <div class="row pwt_card_dsc">
+				        <div class="pwt_card_dsc">
 				           <p class="card-text">
 				            <?php the_excerpt(); ?>
 				           </p>
