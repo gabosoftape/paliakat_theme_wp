@@ -25,7 +25,7 @@ $wc_query = new WP_Query($params);
 	         		<div class="pwt_img">
 	           			<?php the_post_thumbnail(); ?>
 	         		</div>
-			       <div class="container-flex">
+			       <div class="pwt_dsc">
 				        <div class="row pwt_card_title">
 				           <h5>
 				             <?php the_title(); ?>
