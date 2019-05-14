@@ -17,7 +17,7 @@ $wc_query = new WP_Query($params);
      		</div>
      	</div>
      	<div class="row fila2">
-     		<<?php echo do_shortcode('[top_rated_products]'); ?>
+     		<?php echo do_shortcode('[top_rated_products columns=3]');?>
      	</div>
      	<!-- fila 3 --------------------------------------------------------- -->
      	<div class="row fila3">
