@@ -4558,8 +4558,6 @@ section .widget-post-excerpt {
 	display: inline-flex;!important
 	color: #FFF;
 	background-color: #000;
-	margin-left: 30%;
-	margin-right: 30%;
 	margin-top: 60%;
 }
 .button_login {
