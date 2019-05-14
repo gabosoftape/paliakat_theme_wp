@@ -4553,11 +4553,10 @@ section .widget-post-excerpt {
 	justify-content: center;
 	align-items: center;
 }
-.pwt_card_dsc a{
-	align-self: center;
-}
+
 .pwt_button{
 	display: inline-flex;!important
+	vertical-align: middle;
 	color: #FFF;
 	background-color: #000;
 	margin-top: 60%;
