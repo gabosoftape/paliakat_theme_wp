@@ -18,7 +18,7 @@ $wc_query = new WP_Query($params);
      	</div>
      	<div class="row fila2">
      		<div class="col-xl-12 col-lg-12 pwt_title">
-     			<?php echo do_shortcode('[sale_products]');?>
+     			<?php echo do_shortcode('[recent_products]');?>
      		</div>
      	</div>
      	<!-- fila 3 --------------------------------------------------------- -->
